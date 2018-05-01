@@ -1,9 +1,16 @@
 {
-  "name": "simpleHangul",
+  "name": "simple-hangul",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
-  "private": true,
+  "contributors": [{
+    "name": "Adrian Dela Piedra",
+    "email": "adrian.onrails@gmail.com",
+    "url": "https://github.com/adrianonrails/"
+  }, {
+    "name": "Sheen Carbellido",
+    "email": "sheencarbellido@gmail.com",
+    "url": "http://sheenzoned.com/"
+  }],
+  "private": false,
   "scripts": {
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
@@ -35,5 +42,5 @@
     "@ionic/app-scripts": "3.1.9",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project"
+  "description": "A simple PWA for learning basic hangul."
 }
