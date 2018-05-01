@@ -1,3 +1,10 @@
+before_install:
+- nvm install 8
+- npm install -g ionic
+before_script: 
+script:
+- npm install
+- ionic build --prod
 deploy:
   provider: pages
   skip-cleanup: true
