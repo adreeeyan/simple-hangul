@@ -3,21 +3,20 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { QuestionPage } from '../pages/question/question';
+import { QuestionPageModule } from '../pages/question/question.module';
 
 @NgModule({
   declarations: [
-    MyApp,
-    QuestionPage
+    MyApp
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    QuestionPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    QuestionPage
+    MyApp
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}
