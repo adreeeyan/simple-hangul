@@ -3,14 +3,12 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { QuestionPage } from '../pages/question/question';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    ListPage
+    QuestionPage
   ],
   imports: [
     BrowserModule,
@@ -19,8 +17,7 @@ import { ListPage } from '../pages/list/list';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    ListPage
+    QuestionPage
   ],
   providers: [
     {provide: ErrorHandler, useClass: IonicErrorHandler}

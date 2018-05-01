@@ -1,0 +1,28 @@
+page-question {
+  .container-grid {
+    height: 100%;
+    .row:first-of-type {
+      flex-grow: 1;
+    }
+  }
+  .question-card {
+    height: 100%;
+    font-size: 50pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "BMYEONSUNG";
+  }
+  .answer-holder {
+    text-align: center;
+    button {
+      font-size: 1.5rem;
+      text-transform: none;
+      width: 100% !important;
+      font-family: "BMYEONSUNG";
+      span {
+        white-space: normal;
+      }
+    }
+  }
+}
