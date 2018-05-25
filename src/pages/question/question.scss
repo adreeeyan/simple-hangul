@@ -7,11 +7,10 @@ page-question {
   }
   .question-card {
     height: 100%;
-    font-size: 50pt;
+    font-size: 150pt;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "BMYEONSUNG";
   }
   .answer-holder {
     text-align: center;
@@ -19,7 +18,7 @@ page-question {
       font-size: 1.5rem;
       text-transform: none;
       width: 100% !important;
-      font-family: "BMYEONSUNG";
+      font-family: "Raleway";
       span {
         white-space: normal;
       }

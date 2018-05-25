@@ -1,15 +1,18 @@
 {
   "name": "simple-hangul",
   "version": "0.0.1",
-  "contributors": [{
-    "name": "Adrian Dela Piedra",
-    "email": "adrian.onrails@gmail.com",
-    "url": "https://github.com/adrianonrails/"
-  }, {
-    "name": "Sheen Carbellido",
-    "email": "sheencarbellido@gmail.com",
-    "url": "http://sheenzoned.com/"
-  }],
+  "contributors": [
+    {
+      "name": "Adrian Dela Piedra",
+      "email": "adrian.onrails@gmail.com",
+      "url": "https://github.com/adrianonrails/"
+    },
+    {
+      "name": "Sheen Carbellido",
+      "email": "sheencarbellido@gmail.com",
+      "url": "http://sheenzoned.com/"
+    }
+  ],
   "private": false,
   "scripts": {
     "clean": "ionic-app-scripts clean",
