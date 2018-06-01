@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav } from 'ionic-angular';
 
 import { QuestionPage } from '../pages/question/question';
+import { AboutPage } from '../pages/about/about';
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +21,8 @@ export class MyApp {
     this.pages = [
       { title: 'Quiz', component: QuestionPage },
       { title: 'Categories', component: QuestionPage },
-      { title: 'Profile', component: QuestionPage }
+      { title: 'Profile', component: QuestionPage },
+      { title: 'About', component: AboutPage }
     ];
 
   }

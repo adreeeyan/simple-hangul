@@ -4,6 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { QuestionPageModule } from '../pages/question/question.module';
+import { AboutPageModule } from '../pages/about/about.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { QuestionPageModule } from '../pages/question/question.module';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    QuestionPageModule
+    QuestionPageModule,
+    AboutPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
